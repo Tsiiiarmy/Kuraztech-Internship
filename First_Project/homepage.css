@@ -10,8 +10,10 @@
 }
 
 body {
-  font-family: sans-serif;
   background-color: #fafafa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Or your preferred font */
+  font-size: 16px;
+  color: #2c2c2c;
 }
 
 .navbar {
@@ -19,8 +21,13 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 999; /* Make sure it stays on top of everything */
+  background-color: #f9f9f9; /* Repeat the background just in case */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Optional but adds a nice shadow on scroll */
 }
+
 
 .search-group {
   display: flex;
@@ -43,6 +50,7 @@ body {
   color: #2b2b2b;
   border-right: 1px solid #ddd;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Or your preferred font */
 }
 
 .dropdown-content {
@@ -150,6 +158,95 @@ body {
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.hero {
+  background: linear-gradient(to right, #e8f9d9, #ffffff);
+  padding: 60px 40px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.text-content {
+  max-width: 500px;
+  z-index: 2;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  color: #59a825;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-outline {
+  background-color: white;
+  border: 2px solid #59a825;
+  color: #59a825;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-filled {
+  background-color: #8DC63F;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.image-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-left {
+  height: 350px;
+  position: relative;
+  z-index: 3;
+  margin-right: -50px;
+}
+
+.student-right {
+  height: 370px;
+  position: relative;
+  z-index: 2;
+}
+
+.circle-bg {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle at center, #c4f6b5 0%, #ffffff 80%);
+  border-radius: 50%;
+  z-index: 1;
 }
 
 
