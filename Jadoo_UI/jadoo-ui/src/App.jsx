@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './index.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="text-4xl font-bold text-center text-pink-600 mt-20">
-      Tailwind is ALIVEEE 🎉🔥
+    <div className="font-sans bg-white text-gray-800">
+      <Navbar />
+      <Hero />
     </div>
-  );
+  )
 }
-
 
 export default App
