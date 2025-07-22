@@ -89,7 +89,7 @@ const StepsAndTestimonials = () => {
         <img
         src={testimonialImage}
         alt="Testimonial"
-        className="rounded-2xl shadow-md w-full max-w-xl py-20"
+        className="rounded-2xl shadow-md w-full max-w-xl py-30"
         />
     </div>
     </div>

@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import ServicesSection from "./components/ServicesSection";
 import DestinationsSection from "./components/DestinationsSection";
 import StepsAndTestimonials from "./components/StepsAndTestimonials";
+import AirlineLogos from './components/AirlineLogos';
+import SubscribeSection from './components/SubscribeSection';
 import './App.css'
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
     <ServicesSection />
     <DestinationsSection />
     <StepsAndTestimonials />
+    <AirlineLogos />
+    <SubscribeSection />
   </>
  );
 }
