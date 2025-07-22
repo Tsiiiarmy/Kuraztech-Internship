@@ -1,4 +1,3 @@
-// src/components/Hero.jsx
 import React from "react";
 import photo1 from "../assets/photo1.png";
 import plane1 from "../assets/plane.png";
