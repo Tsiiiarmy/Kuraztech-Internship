@@ -2,7 +2,7 @@ import React from "react";
 import photo1 from "../assets/photo1.png";
 import plane1 from "../assets/plane.png";
 import plane2 from "../assets/plane.png";
-import BlobShape from "./blobshape";
+import BlobShape from "../assets/Decore.png";
 
 const Hero = () => {
   return (
@@ -60,6 +60,11 @@ const Hero = () => {
       {/* Decorative Planes */}
       <img src={plane1} alt="Plane" className="absolute top-16 left-190 w-30 h-30" />
       <img src={plane2} alt="Plane" className="absolute top-16 left-273 w-30 h-30" />
+      <img
+        src={BlobShape}
+        alt="Blob Shape"
+        className="absolute top-0 right-0 -z-10 w-[700px] opacity-90"
+      />
     </section>
   );
 };
