@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/Logo.png"; 
+import BlobShape from "./blobshape";
 
 const Navbar = () => {
   return (
@@ -20,9 +21,9 @@ const Navbar = () => {
             <option>EN</option>
             <option>AMH</option>
             <option>KOR</option>
-          </select>
+          </select> 
+          </div>
         </div>
-      </div>
     </nav>
   );
 };

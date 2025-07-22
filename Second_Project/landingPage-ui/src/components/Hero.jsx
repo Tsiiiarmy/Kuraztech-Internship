@@ -2,6 +2,7 @@ import React from "react";
 import photo1 from "../assets/photo1.png";
 import plane1 from "../assets/plane.png";
 import plane2 from "../assets/plane.png";
+import BlobShape from "./blobshape";
 
 const Hero = () => {
   return (
