@@ -7,6 +7,7 @@ import DestinationsSection from "./components/DestinationsSection";
 import StepsAndTestimonials from "./components/StepsAndTestimonials";
 import AirlineLogos from './components/AirlineLogos';
 import SubscribeSection from './components/SubscribeSection';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <StepsAndTestimonials />
     <AirlineLogos />
     <SubscribeSection />
+    <Footer />
   </>
  );
 }
