@@ -3,6 +3,7 @@ import romeImg from "../assets/rome.png";
 import londonImg from "../assets/london.png";
 import europeImg from "../assets/europe.png";
 import { FaMapMarkerAlt } from "react-icons/fa"; 
+import rightdecore from "../assets/zigzag.png"; 
 
 const destinations = [
   {

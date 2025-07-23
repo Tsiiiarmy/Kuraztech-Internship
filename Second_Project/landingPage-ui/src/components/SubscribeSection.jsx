@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPaperPlane, FaEnvelope } from 'react-icons/fa';
 import left from '../assets/leftt.png';
 import right from '../assets/right.png';
+import decor from '../assets/pluss.png'; 
 
 const SubscribeSection = () => {
   return (
@@ -40,6 +41,11 @@ const SubscribeSection = () => {
             Subscribe
           </button>
         </form>
+          <img
+            src={decor}
+            alt="Decoration"
+            className="hidden md:block absolute right-0 top-20 w-50 h-auto opacity-80 pointer-events-none z-0"
+          />
       </div>
     </section>
   );

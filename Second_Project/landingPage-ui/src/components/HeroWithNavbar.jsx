@@ -106,7 +106,7 @@ const HeroWithNavbar = () => {
         <img
           src={plane1}
           alt="Plane"
-          className="absolute top-13 left-[790px] w-30 h-30"
+          className="absolute top-13 left-[790px] w-30 h-30 "
         />
         <img
           src={plane2}
