@@ -8,13 +8,15 @@ import StepsAndTestimonials from "./components/StepsAndTestimonials";
 import AirlineLogos from './components/AirlineLogos';
 import SubscribeSection from './components/SubscribeSection';
 import Footer from './components/Footer';
+import HeroWithNavbar from './components/HeroWithNavbar';
 import './App.css'
 
 function App() {
  return (
   <>
-    <Navbar />
-    <Hero />
+    {/* <Navbar />
+    <Hero /> */}
+    <HeroWithNavbar/>
     <ServicesSection />
     <DestinationsSection />
     <StepsAndTestimonials />

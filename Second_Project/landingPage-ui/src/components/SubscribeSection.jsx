@@ -35,7 +35,7 @@ const SubscribeSection = () => {
           </div>
           <button
             type="submit"
-            className="bg-[#FF7152] text-white font-poppins font-medium px-6 py-3 rounded-lg shadow-md hover:bg-[#ff5c3d] transition"
+            className="bg-[#FF7152] text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-[#ff5c3d] transition" style={{fontFamily: 'Poppins'}}
           >
             Subscribe
           </button>

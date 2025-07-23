@@ -2,7 +2,7 @@ import React from "react";
 import romeImg from "../assets/rome.png";
 import londonImg from "../assets/london.png";
 import europeImg from "../assets/europe.png";
-import { FaMapMarkerAlt } from "react-icons/fa"; // location icon
+import { FaMapMarkerAlt } from "react-icons/fa"; 
 
 const destinations = [
   {
